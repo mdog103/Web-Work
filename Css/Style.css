@@ -43,27 +43,26 @@ h2 {
   font-size: 30px;
   background-color: rgb(40,120,10);
 }
-p{
-  color: blue;
 
+ .blue {
+  color: blue;
 }
-ol {
-  color:blue
+.red {
+  color: red;
 }
 p {
   font-size: 25px;
   text-align: center;
+  
 }
 H1{ color: red}
 Ul  {
   color:red
 }
-#big.p {
+#big {
   font-size: 25px;
 }
-#big.ol {
-  font-size: 25px;
-}
+
 subheader {
   font-weight: bold;
   font-size: 15px;
@@ -89,11 +88,12 @@ subheader {
   padding: 10px;
 text-align:center
 }
-.flex-container {
+.flex-container { gap: 10px;
   display: flex;
 }
 
 .box {
+  
   background-color: rgb(151, 20, 20);
   padding: 20px;
   margin: 10px;
