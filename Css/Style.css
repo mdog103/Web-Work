@@ -1,7 +1,12 @@
 H1 {
-  background-color: rgb(40, 120, 10);
+  color: rgb(0, 255, 255);
+  background-color: #ffffff;
   text-align: center;
 }
+
+
+
+
 Ol {
   font-size: 20px;
   text-align: center;
@@ -13,11 +18,11 @@ Ul {
 H3 {
   font-size: 30px;
   text-align: center;
-  background-color: rgb(40,120,10);
+  background-color: #ffffff;
 
 }
 body {
-  background-color: #ec8398;
+  background-color: #ffffff;
 }
 
 * {
@@ -31,17 +36,13 @@ img {
   margin: auto;
 }
 
-h1{
-  text-align: center;
-  font-size: 30px;
-  background-color: rgb(40,120,10);
-}
 
 
-h2 {
+
+H2 {
   text-align: center;
   font-size: 30px;
-  background-color: rgb(40,120,10);
+  background-color: rgb(0,255,255);
 }
 
  .blue {
@@ -56,6 +57,7 @@ p {
   
 }
 H1{ color: red}
+
 Ul  {
   color:red
 }
@@ -74,22 +76,28 @@ subheader {
   text-align: center;
   text-decoration: none;
   font-size: 16px;
-  display: inline-block;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
   margin: 10px;
+  
 }
 #main_page_header {
   background-color: rgb(23, 129, 14);
   text-align: center;}
 
   section {
-  width: 50%;
+  width: 100%;
   background-color: lightblue;
   border: 1px solid black;
   padding: 10px;
-text-align:center
+  text-align:center;
+
 }
 .flex-container { gap: 10px;
   display: flex;
+  
 }
 
 .box {
@@ -101,5 +109,24 @@ text-align:center
 justify-content::after {
   content: "";
   flex: auto;
+  text-align:center
 }
+flex-container > div {
+        background-color: #f1f1f1;
+        width: 99px;
+        margin: 10px;
+        text-align: center;
+        line-height: 75px;
+        font-size: 30px;
+      }
+      
+      @media (max-width: 500px) {
+        .flex-container {
+          flex-direction: column;
+          align-items: center;
+        }
+      }
 
+
+
+      
